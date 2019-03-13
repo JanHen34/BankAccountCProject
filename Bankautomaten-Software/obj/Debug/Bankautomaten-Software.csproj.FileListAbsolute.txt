@@ -1,0 +1,9 @@
+C:\Users\janni\Desktop\Bankautomaten-Software\Bankautomaten-Software\bin\Debug\Bankautomaten-Software.exe.config
+C:\Users\janni\Desktop\Bankautomaten-Software\Bankautomaten-Software\bin\Debug\Bankautomaten-Software.exe
+C:\Users\janni\Desktop\Bankautomaten-Software\Bankautomaten-Software\bin\Debug\Bankautomaten-Software.pdb
+C:\Users\janni\Desktop\Bankautomaten-Software\Bankautomaten-Software\obj\Debug\Bankautomaten-Software.csprojAssemblyReference.cache
+C:\Users\janni\Desktop\Bankautomaten-Software\Bankautomaten-Software\obj\Debug\Bankautomaten-Software.csproj.CoreCompileInputs.cache
+C:\Users\janni\Desktop\Bankautomaten-Software\Bankautomaten-Software\obj\Debug\Bankautomaten-Software.exe
+C:\Users\janni\Desktop\Bankautomaten-Software\Bankautomaten-Software\obj\Debug\Bankautomaten-Software.pdb
+C:\Users\janni\Desktop\Bankautomaten-Software\Bankautomaten-Software\obj\Debug\Bankautomaten_Software.Form1.resources
+C:\Users\janni\Desktop\Bankautomaten-Software\Bankautomaten-Software\obj\Debug\Bankautomaten-Software.csproj.GenerateResource.cache
