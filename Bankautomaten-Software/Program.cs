@@ -20,7 +20,7 @@ namespace Bankautomaten_Software
             string name_kunde;
 
             string test;
-
+            Boolean tester = true;
             int betrag_einzahlen;
             int betrag_auszahlen;
 
