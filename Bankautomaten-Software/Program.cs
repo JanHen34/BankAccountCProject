@@ -19,6 +19,8 @@ namespace Bankautomaten_Software
             string bearbeitung_fortsetzen;
             string name_kunde;
 
+            string test;
+
             int betrag_einzahlen;
             int betrag_auszahlen;
 
