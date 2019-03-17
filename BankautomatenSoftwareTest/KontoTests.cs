@@ -12,11 +12,16 @@ namespace Bankautomaten_Software.Tests
     public class KontoTests
     {
         Konto konto;
+        Kunde kunde;
+        Pin pin;
 
         [TestInitialize]
         public void testInit()
         {
-            konto = new Konto(1000);
+
+            kunde = new Kunde("forName", "LastName");
+            pin = new Pin(1234);
+            konto = new Konto(kunde, pin, "1234513", 1000);
         }
 
         [TestMethod()]
@@ -38,5 +43,21 @@ namespace Bankautomaten_Software.Tests
             konto.removeBalance(100);
             Assert.AreEqual(900,konto.Balance);
         }
+
+        [TestMethod()]
+        public void getKunde()
+        {
+            Kunde result = konto.Kunde;
+            Assert.AreEqual(kunde, result);
+        }
+
+
+        [TestMethod()]
+        public void getPin()
+        {
+            Pin result = konto.Pin;
+            Assert.AreEqual(pin, result);
+        }
+
     }
 }

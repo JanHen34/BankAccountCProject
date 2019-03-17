@@ -14,12 +14,10 @@ namespace Bankautomaten_Software
         {
             string währung = "Euro";
             double kontostand = 1000;
-            
-            Kunde kunde = new Kunde("Vorname", "Nachname");
-            Pin pin = new Pin(1234);
-            Konto konto = new Konto(kunde, pin, "kontoNummer", kontostand);
 
-            checkPin();
+            Konto konto = generateUserForBankSystem(kontostand);
+
+            checkPin(konto);
             string eingabe;
             string bearbeitung_fortsetzen;
 
@@ -47,6 +45,14 @@ namespace Bankautomaten_Software
             Console.ReadKey();
 
 
+        }
+
+        private static Konto generateUserForBankSystem(double kontostand)
+        {
+            Kunde kunde = new Kunde("Vorname", "Nachname");
+            Pin pin = new Pin(1234);
+            Konto konto = new Konto(kunde, pin, "kontoNummer", kontostand);
+            return konto;
         }
 
         /*

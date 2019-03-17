@@ -11,7 +11,13 @@ namespace Bankautomaten_Software.Tests
     [TestClass()]
     public class PinTests
     {
-        Pin pin = new Pin();
+        Pin pin;
+
+        [TestInitialize]
+        public void init()
+        {
+            pin = new Pin(1234);
+        }
 
         [TestMethod()]
         public void PinTest()
@@ -41,6 +47,45 @@ namespace Bankautomaten_Software.Tests
         public void getLowerBorderTest_false()
         {
             Assert.IsFalse(pin.checkBordersOfPin(999));
+        }
+
+
+        [TestMethod()]
+        public void pinAccess_success()
+        {
+            Assert.IsTrue(pin.checkPin(1234));
+        }
+
+
+        [TestMethod()]
+        public void pinAccess_fail()
+        {
+            Assert.IsFalse(pin.checkPin(1243));
+        }
+
+
+        [TestMethod()]
+        public void pinAccess_failEvenAfterSuccess()
+        {
+            Assert.IsFalse(pin.checkPin(1243));
+            Assert.IsFalse(pin.checkPin(1243));
+            Assert.IsFalse(pin.checkPin(1243));
+            //type the right pin and still get false, because we don´t have enough tries
+            Assert.IsFalse(pin.checkPin(1234));
+        }
+
+        [TestMethod()]
+        public void pinAccess_trueEvenSuccess()
+        {
+            Assert.IsFalse(pin.checkPin(1243));
+            Assert.IsFalse(pin.checkPin(1243));
+            //Resets the tries
+            Assert.IsTrue(pin.checkPin(1234));
+
+            Assert.IsFalse(pin.checkPin(1243));
+            //Resets was successful
+            Assert.IsTrue(pin.checkPin(1234));
+
         }
     }
 }
