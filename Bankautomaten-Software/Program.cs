@@ -12,37 +12,18 @@ namespace Bankautomaten_Software
         
         static void Main(string[] args)
         {
-            bool pin_anforderung;
             string währung = "Euro";
             double kontostand = 1000;
-            string bearbeitung_fortsetzen;
-            string name_kunde;
+            
+            Kunde kunde = new Kunde("Vorname", "Nachname");
+            Pin pin = new Pin(1234);
+            Konto konto = new Konto(kunde, pin, "kontoNummer", kontostand);
 
             checkPin();
-            Konto konto = new Konto(kontostand);
-            
-            Console.WriteLine("Bitte wählen Sie aus den 4 Möglichkeiten: Einzahlen, Auszahlen und Kontostand aus!");
-
             string eingabe;
-            eingabe = Console.ReadLine();
-            
+            string bearbeitung_fortsetzen;
 
-            switch (eingabe)
-            {
-                case "Einzahlen":
-                    betrag_einzahlen = addBalanceToKonto(konto);
-                    break;
-                case "Auszahlen":
-                    betrag_auszahlen = removeBalanceFromKonto(konto);
-                    break;
-                case "Kontostand":
-                    readKonto(währung, konto);
-                    break;
-            }
-
-            Console.WriteLine("Wollen Sie die Bearbeitung fortsetzen?");
-            bearbeitung_fortsetzen = Console.ReadLine();
-            while (bearbeitung_fortsetzen == "Ja")
+            do
             {
                 Console.WriteLine("Bitte wählen Sie aus den 3 Möglichkeiten: Einzahlen, Auszahlen und Kontostand aus!");
                 eingabe = Console.ReadLine();
@@ -60,11 +41,8 @@ namespace Bankautomaten_Software
                 }
                 Console.WriteLine("Wollen sie die Bearbeitung fortsetzen?");
                 bearbeitung_fortsetzen = Console.ReadLine();
-                if (bearbeitung_fortsetzen == "Nein")
-                {
-                    break;
-                }
-            }
+            } while ("ja".Equals(bearbeitung_fortsetzen.ToLower()) || "j".Equals(bearbeitung_fortsetzen));
+
             Console.WriteLine("Wir wünschen Ihnen noch einen schönen Tag! Bitte drücken Sie eine Taste!");
             Console.ReadKey();
 
@@ -105,7 +83,7 @@ namespace Bankautomaten_Software
             Console.WriteLine("Ihr Kontostand wurde Aktualisiert. Bitte Sie Ihr einzuzahlendes Geld in die Vorrichtung!");
         }
 
-        private static int checkPin()
+        private static int checkPin(Konto konto)
         {
             
             Console.WriteLine("Willkommen bei der Sparkasse!");
@@ -114,7 +92,7 @@ namespace Bankautomaten_Software
             int pin;
             pin = Convert.ToInt32(Console.ReadLine());
 
-            Pin pinCheck = new Pin();
+            Pin pinCheck = konto.Pin;
             while (!pinCheck.checkBordersOfPin(pin))
             {
                 Console.WriteLine("Die angegebene PIN einspricht nicht den Anforderungen! Bitte geben sie ihre PIN erneut ein!");
