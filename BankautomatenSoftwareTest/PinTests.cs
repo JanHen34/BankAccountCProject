@@ -20,10 +20,27 @@ namespace Bankautomaten_Software.Tests
         }
 
         [TestMethod()]
-        public void getUpperBorderTest()
+        public void getLowerBorderTest_True()
         {
+            Assert.IsTrue(pin.checkBordersOfPin(1000));
+        }
+        
+        [TestMethod()]
+        public void getUpperBorderTest_True()
+        {
+            Assert.IsTrue(pin.checkBordersOfPin(9999));
+        }
 
-            Assert.IsTrue(pin.getUpperBorder());
+        [TestMethod()]
+        public void getUpperBorderTest_false()
+        {
+            Assert.IsFalse(pin.checkBordersOfPin(10000));
+        }
+
+        [TestMethod()]
+        public void getLowerBorderTest_false()
+        {
+            Assert.IsFalse(pin.checkBordersOfPin(999));
         }
     }
 }

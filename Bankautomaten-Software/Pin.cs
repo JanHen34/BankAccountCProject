@@ -6,9 +6,9 @@
         {
         }
 
-        public bool getUpperBorder()
+        public bool checkBordersOfPin(int value)
         {
-            return true;
+            return value >= 1000 && value <= 9999;
         }
 
     }
