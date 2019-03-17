@@ -1,0 +1,12 @@
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\BankautomatenSoftwareTest\bin\Debug\BankautomatenSoftwareTest.dll
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\BankautomatenSoftwareTest\bin\Debug\BankautomatenSoftwareTest.pdb
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\BankautomatenSoftwareTest\bin\Debug\Bankautomaten-Software.exe
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\BankautomatenSoftwareTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\BankautomatenSoftwareTest\bin\Debug\Bankautomaten-Software.pdb
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\BankautomatenSoftwareTest\bin\Debug\Bankautomaten-Software.exe.config
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\BankautomatenSoftwareTest\bin\Debug\de\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\BankautomatenSoftwareTest\obj\Debug\BankautomatenSoftwareTest.csprojAssemblyReference.cache
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\BankautomatenSoftwareTest\obj\Debug\BankautomatenSoftwareTest.csproj.CoreCompileInputs.cache
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\BankautomatenSoftwareTest\obj\Debug\BankautomatenSoftwareTest.csproj.CopyComplete
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\BankautomatenSoftwareTest\obj\Debug\BankautomatenSoftwareTest.dll
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\BankautomatenSoftwareTest\obj\Debug\BankautomatenSoftwareTest.pdb

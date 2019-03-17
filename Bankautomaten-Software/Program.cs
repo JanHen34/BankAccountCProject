@@ -22,6 +22,7 @@ namespace Bankautomaten_Software
             int betrag_einzahlen;
             int betrag_auszahlen;
 
+            Pin pin = new Pin();
             Console.WriteLine("Willkommen bei der Sparkasse!");
             Console.WriteLine("Bitte geben sie Ihre 4 stelligen PIN ein um fortzufahren!");            
             pin = Convert.ToInt32(Console.ReadLine());

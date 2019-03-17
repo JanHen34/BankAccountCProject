@@ -7,3 +7,12 @@ C:\Users\janni\Desktop\Bankautomaten-Software\Bankautomaten-Software\obj\Debug\B
 C:\Users\janni\Desktop\Bankautomaten-Software\Bankautomaten-Software\obj\Debug\Bankautomaten-Software.pdb
 C:\Users\janni\Desktop\Bankautomaten-Software\Bankautomaten-Software\obj\Debug\Bankautomaten_Software.Form1.resources
 C:\Users\janni\Desktop\Bankautomaten-Software\Bankautomaten-Software\obj\Debug\Bankautomaten-Software.csproj.GenerateResource.cache
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\Bankautomaten-Software\bin\Debug\Bankautomaten-Software.exe.config
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\Bankautomaten-Software\bin\Debug\Bankautomaten-Software.exe
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\Bankautomaten-Software\bin\Debug\Bankautomaten-Software.pdb
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\Bankautomaten-Software\obj\Debug\Bankautomaten-Software.csprojAssemblyReference.cache
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\Bankautomaten-Software\obj\Debug\Bankautomaten_Software.Form1.resources
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\Bankautomaten-Software\obj\Debug\Bankautomaten-Software.csproj.GenerateResource.cache
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\Bankautomaten-Software\obj\Debug\Bankautomaten-Software.csproj.CoreCompileInputs.cache
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\Bankautomaten-Software\obj\Debug\Bankautomaten-Software.exe
+C:\Users\tobi\IdeaProjects\BankAutomat\BankAccountCProject\Bankautomaten-Software\obj\Debug\Bankautomaten-Software.pdb
