@@ -31,6 +31,7 @@ namespace Bankautomaten_Software
             while (pin < 1111 || pin > 9999 )
             {
                 pin = pinUeberpruefung();
+                Console.WriteLine("test code");
             }
 
             ichSchreibeEineNeueMethode(kontostand);
